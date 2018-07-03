@@ -7,7 +7,7 @@ Summary:	Tools for testing processes
 Summary(pl.UTF-8):	Narzędzia do testowania procesów
 Name:		python-process_tests
 Version:	1.2.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.python.org/simple/process-tests
