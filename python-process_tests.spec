@@ -6,25 +6,25 @@
 Summary:	Tools for testing processes
 Summary(pl.UTF-8):	Narzędzia do testowania procesów
 Name:		python-process_tests
-Version:	2.0.2
-Release:	2
+Version:	2.1.2
+Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/process-tests/
 Source0:	https://files.pythonhosted.org/packages/source/p/process-tests/process-tests-%{version}.tar.gz
-# Source0-md5:	47e4bec8f7031306371b3471033c40c4
+# Source0-md5:	bd65932ebc724e53dd6a951bc106b02e
 URL:		https://github.com/ionelmc/python-process-tests
 %if %{with python2}
-BuildRequires:	python-modules >= 1:2.6
+BuildRequires:	python-modules >= 1:2.7
 BuildRequires:	python-setuptools
 %endif
 %if %{with python3}
-BuildRequires:	python3-modules >= 1:3.2
+BuildRequires:	python3-modules >= 1:3.5
 BuildRequires:	python3-setuptools
 %endif
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
-Requires:	python-modules >= 1:2.6
+Requires:	python-modules >= 1:2.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -38,7 +38,7 @@ Narzędzia do testowania procesów.
 Summary:	Tools for testing processes
 Summary(pl.UTF-8):	Narzędzia do testowania procesów
 Group:		Libraries/Python
-Requires:	python3-modules >= 1:3.2
+Requires:	python3-modules >= 1:3.5
 
 %description -n python3-process_tests
 Tools for testing processes.
